@@ -1,4 +1,4 @@
-def calculate(matrixOne, matrixTwo):
+def additionMatrices(matrixOne, matrixTwo):
     finalMatrix = []
     indexRow = 0
     indexElement = 0
@@ -33,7 +33,7 @@ def main():
     elif (hasDifferentRowsNumber(matrixOne, matrixTwo)):
         print('Error, matrices with different number of rows')
     else:
-        calculate(matrixOne, matrixTwo)
+        additionMatrices(matrixOne, matrixTwo)
 
 if __name__ == "__main__":
     main()

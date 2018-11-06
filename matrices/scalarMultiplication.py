@@ -9,7 +9,7 @@ def scalarMultiplication(matrix, multiplier):
     print(finalMatrix)
 
 def main():
-    matrix = [[1,2,5], [12, 4, 5], [1, 4, 5]]
+    matrix = [[1, 2, 5], [12, 4, 5], [1, 4, 5]]
     multiplier = 2
 
     scalarMultiplication(matrix, multiplier)
